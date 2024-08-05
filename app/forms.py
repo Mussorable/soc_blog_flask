@@ -48,3 +48,14 @@ class EditProfileForm(FlaskForm):
             user = db.session.scalar(sa.select(User).where(User.username == username.data))
             if user is not None:
                 raise ValidationError('That username is taken. Please choose a different one.')
+
+
+class PostForm(FlaskForm):
+    post = TextAreaField('Say something', validators=[
+        DataRequired(),
+        Length(min=1, max=140)])
+    submit = SubmitField('Submit')
+
+
+class EmptyForm(FlaskForm):
+    submit = SubmitField('Submit')
