@@ -5,22 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="447c99cf-d359-4890-be00-429931624be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/soc_blog_flask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/dd36e83b0564_followers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flaskenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/email/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/email/reset_password.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/reset_password_request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/PyJWT-2.9.0.dist-info/AUTHORS.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/PyJWT-2.9.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/PyJWT-2.9.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/PyJWT-2.9.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/PyJWT-2.9.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/PyJWT-2.9.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/PyJWT-2.9.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/PyJWT-2.9.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/flask_mail-0.10.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/flask_mail-0.10.0.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/flask_mail-0.10.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/flask_mail-0.10.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/flask_mail-0.10.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/flask_mail-0.10.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/flask_mail/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/flask_mail/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/algorithms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/api_jwk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/api_jws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/api_jwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/jwk_set_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/jwks_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/jwt/warnings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/microblog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/microblog.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,23 +85,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/gajawecki/Documents/soc_blog_flask",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.python.templateLanguages.PyTemplateLanguageModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gajawecki/Documents/soc_blog_flask&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.templateLanguages.PyTemplateLanguageModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="soc_blog_flask" type="Python.FlaskServer">
       <module name="soc_blog_flask" />
@@ -114,7 +139,8 @@
       <workItem from="1722764328568" duration="16133000" />
       <workItem from="1722797529119" duration="639000" />
       <workItem from="1722798180539" duration="8000" />
-      <workItem from="1722869962300" duration="9135000" />
+      <workItem from="1722869962300" duration="11315000" />
+      <workItem from="1722959105647" duration="2478000" />
     </task>
     <servers />
   </component>

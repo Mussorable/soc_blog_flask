@@ -65,3 +65,11 @@ Traceback (most recent call last):
 AttributeError: 'User' object has no attribute 'followed_posts'. Did you mean: 'following_posts'?
 2024-08-05 22:02:41,368 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
 2024-08-05 22:11:40,321 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 22:25:16,684 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-05 22:34:06,708 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-05 22:35:51,213 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:54]
+2024-08-05 22:37:05,240 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:54]
+2024-08-05 22:42:52,046 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:54]
+2024-08-05 22:44:20,697 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-05 22:45:43,416 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-05 22:47:56,311 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
