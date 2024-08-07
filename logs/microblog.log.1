@@ -1,0 +1,111 @@
+2024-08-04 20:34:53,372 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-04 20:35:12,633 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 17:17:27,363 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 17:19:18,887 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 17:21:39,489 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 17:21:49,059 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 17:22:37,469 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 17:55:19,792 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 17:55:25,495 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 17:55:40,081 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 17:56:30,210 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 20:23:57,422 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:01:56,325 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:02:47,705 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:02:48,707 ERROR: Exception on /index [GET] [in /home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py:838]
+Traceback (most recent call last):
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/app/routes.py", line 26, in index
+    posts = db.session.scalar(current_user.following_posts()).all()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'all'
+2024-08-05 21:03:26,030 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:10:38,337 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:10:51,168 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:11:12,039 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:16:33,080 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:19:15,230 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:57:26,250 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 21:59:19,191 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 22:02:19,799 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 22:02:23,180 ERROR: Exception on /index [GET] [in /home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py:838]
+Traceback (most recent call last):
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/app/routes.py", line 29, in index
+    current_user.followed_posts(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'followed_posts'. Did you mean: 'following_posts'?
+2024-08-05 22:02:41,368 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 22:11:40,321 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:50]
+2024-08-05 22:25:16,684 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-05 22:34:06,708 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-05 22:35:51,213 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:54]
+2024-08-05 22:37:05,240 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:54]
+2024-08-05 22:42:52,046 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:54]
+2024-08-05 22:44:20,697 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-05 22:45:43,416 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-05 22:47:56,311 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 18:36:51,123 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 18:37:18,919 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 18:37:22,961 ERROR: Exception on /reset_password_request [POST] [in /home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py:838]
+Traceback (most recent call last):
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/venv/lib64/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/app/routes.py", line 127, in reset_password_request
+    send_password_reset_email(user)
+  File "/home/gajawecki/Documents/soc_blog_flask/app/email.py", line 22, in send_password_reset_email
+    token = user.get_reset_password_token()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gajawecki/Documents/soc_blog_flask/app/models.py", line 97, in get_reset_password_token
+    return jwt.encode(
+           ^^^^^^^^^^^
+TypeError: PyJWT.encode() got multiple values for argument 'algorithm'
+2024-08-06 18:38:42,444 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 18:49:01,200 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 18:55:26,674 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 18:56:27,157 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 18:58:23,925 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 19:01:11,822 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 20:24:31,592 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 20:28:11,580 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 20:29:51,824 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 20:30:59,651 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
+2024-08-06 20:32:24,060 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:53]
