@@ -17,8 +17,8 @@ app.config.from_object(Config)
 
 
 def get_locale():
-    return request.accept_languages.best_match(Config.LANGUAGES)
-
+    # return request.accept_languages.best_match(Config.LANGUAGES)
+    return 'es'
 
 babel = Babel(app, locale_selector=get_locale)
 moment = Moment(app)

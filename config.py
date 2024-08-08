@@ -16,3 +16,6 @@ class Config:
     ADMINS = ['redduck5601@example.com']
 
     POSTS_PER_PAGE = 24
+
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
+    MS_TRANSLATOR_REGION = os.environ.get('MS_TRANSLATOR_REGION')

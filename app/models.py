@@ -12,7 +12,6 @@ from flask_login import UserMixin
 import sqlalchemy as sa
 import sqlalchemy.orm as so
 
-
 followers = sa.Table(
     'followers',
     db.metadata,
@@ -108,6 +107,7 @@ class User(UserMixin, db.Model):
             return False
         return db.session.get(User, id)
 
+
 class Post(db.Model):
     id: so.Mapped[int] = so.mapped_column(primary_key=True)
     body: so.Mapped[str] = so.mapped_column(sa.String(140))
@@ -115,6 +115,8 @@ class Post(db.Model):
     user_id: so.Mapped[int] = so.mapped_column(sa.ForeignKey(User.id), index=True)
 
     author: so.Mapped[User] = so.relationship(back_populates='posts')
+
+    language: so.Mapped[Optional[str]] = so.mapped_column(sa.String(5))
 
 
 @login.user_loader

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-07 20:27+0200\n"
-"PO-Revision-Date: 2024-08-07 20:31+0200\n"
+"POT-Creation-Date: 2024-08-08 20:52+0200\n"
+"PO-Revision-Date: 2024-08-08 20:53+0200\n"
 "Last-Translator: \n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 2.15.0\n"
 "X-Generator: Poedit 3.4.3\n"
 
-#: app/__init__.py:29
+#: app/__init__.py:28
 msgid "Please log in to access this page."
 msgstr "Пожалуйста авторизуйтесь чтобы увидеть эту страницу."
 
@@ -80,66 +80,78 @@ msgstr "Подтвердить"
 msgid "Say something"
 msgstr "Скажите что-то"
 
-#: app/routes.py:27
+#: app/routes.py:33
 msgid "Your post has been added."
 msgstr "Ваше сообщение было добавлено."
 
-#: app/routes.py:42 app/templates/base.html:22
+#: app/routes.py:48 app/templates/base.html:22
 msgid "Home"
 msgstr "Главная"
 
-#: app/routes.py:66 app/templates/base.html:26
+#: app/routes.py:72 app/templates/base.html:26
 msgid "Explore"
 msgstr "Новое"
 
-#: app/routes.py:86
+#: app/routes.py:92
 msgid "Your account has been created! You are now able to log in."
 msgstr "Ваша учетная запись создана! Теперь вы можете войти в систему."
 
-#: app/routes.py:101
+#: app/routes.py:107
 msgid "Invalid username or password"
 msgstr "Неверный логин или пароль"
 
-#: app/routes.py:130
+#: app/routes.py:136
 msgid "Check your email for instructions to reset your password"
 msgstr ""
 "Проверьте свою электронную почту, чтобы получить инструкции по сбросу "
 "пароля"
 
-#: app/routes.py:147
+#: app/routes.py:153
 msgid "Your password has been reset."
 msgstr "Ваш пароль изменён."
 
-#: app/routes.py:185
+#: app/routes.py:191
 msgid "Your changes have been saved."
 msgstr "Ваши изменения были сохранены."
 
-#: app/routes.py:203 app/routes.py:225
+#: app/routes.py:209 app/routes.py:231
 msgid "User does not exist"
 msgstr "Пользователя не существует"
 
-#: app/routes.py:206
+#: app/routes.py:212
 msgid "You cannot follow yourself!"
 msgstr "Вы не можете подписаться на себя!"
 
-#: app/routes.py:210
+#: app/routes.py:216
 #, python-format
 msgid "You are now following %(username)s!"
 msgstr "Теперь вы подписаны на %(username)s!"
 
-#: app/routes.py:228
+#: app/routes.py:234
 msgid "You cannot unfollow yourself!"
 msgstr "Вы не можете отписаться от себя!"
 
-#: app/routes.py:232
+#: app/routes.py:238
 #, python-format
 msgid "You are not following %(username)s!"
 msgstr "Вы отписаны от %(username)s!"
+
+#: app/translate.py:9
+msgid "Error: the translation service is not configured."
+msgstr "Ошибка: служба перевода не настроена."
+
+#: app/translate.py:22
+msgid "Error: the translation service failed."
+msgstr "Ошибка: служба перевода завершилась неудачно."
 
 #: app/templates/_post.html:15
 #, python-format
 msgid "%(username)s said %(when)s"
 msgstr "%(username)s сказал %(when)s"
+
+#: app/templates/_post.html:26
+msgid "Translate"
+msgstr "Перевод"
 
 #: app/templates/base.html:11
 msgid "Welcome to Microblog"
@@ -180,6 +192,10 @@ msgstr "Забыли пароль?"
 #: app/templates/login.html:10
 msgid "Click to Reset!"
 msgstr "Нажмите чтобы Восстановить!"
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Сбросить пароль"
 
 #: app/templates/user.html:10
 msgid "Last seen on"
