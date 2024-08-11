@@ -48,3 +48,5 @@ ValueError: unsupported format character '{' (0x7b) at index 23
 2024-08-07 20:26:26,368 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:65]
 2024-08-07 20:34:55,395 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:65]
 2024-08-07 20:36:14,593 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:65]
+2024-08-11 08:40:13,512 INFO: Microblog startup [in <input>:63]
+2024-08-11 08:40:13,513 INFO: Microblog startup [in /home/gajawecki/Documents/soc_blog_flask/app/__init__.py:63]
